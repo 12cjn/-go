@@ -39,6 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
+    'users',
+    'goods',
+    'trade',
+    'user_operation',
+    'rest_framework',
+    'xadmin',
+    'crispy_forms',
+    'DjangoUeditor'
 ]
 
 MIDDLEWARE = [
@@ -132,3 +140,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'users.UserProfile'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
