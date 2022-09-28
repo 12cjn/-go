@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'mxshop',
         'USER': 'root',  # 账号
         'PASSWORD': 'Rongan@123',  # 密码
-        'HOST': '192.168.138.139',  # IP
+        'HOST': '192.168.32.128',  # IP
         'PORT': '3306',  # 端口
         # 这里引擎用innodb（默认myisam）
         # 因为后面第三方登录时，要求引擎为INNODB
