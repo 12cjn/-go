@@ -4,16 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+djangorestframework = "*"
 django = "==3.2.15"
 markdown = "*"
 django-filter = "*"
 pillow = "*"
 pymysql = "*"
-asgiref = "==3.4.1"
-xadmin = "*"
-djangoueditor = "==1.8.143"
-certifi = "==2022.6.15"
-djangorestframework = "==3.13.1"
 
 [dev-packages]
 

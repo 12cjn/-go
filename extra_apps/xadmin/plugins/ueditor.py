@@ -1,11 +1,8 @@
-# xadmin/plugins/ueditor.py
-
 import xadmin
 from xadmin.views import BaseAdminPlugin, CreateAdminView, ModelFormAdminView, UpdateAdminView
 from DjangoUeditor.models import UEditorField
 from DjangoUeditor.widgets import UEditorWidget
 from django.conf import settings
-
 
 
 class XadminUEditorWidget(UEditorWidget):

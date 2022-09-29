@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "/root/.virtualenvs/DjangoProject/lib/python3.8/site-packages",
+        "./extra_apps",
+        "./apps"
+    ]
+}
